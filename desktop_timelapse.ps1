@@ -49,7 +49,7 @@ function screenshot($path)
 
 if($interval -eq $null)
 {
-    $int = Read-Host "-interval, timelapse interval in miliseconds "
+    $interval = Read-Host "-interval, timelapse interval in miliseconds "
 }
 
 
@@ -77,5 +77,5 @@ while($true)
 
     screenshot $file
     Write-Progress -Activity "Progress" -Status "$file captured. Ctrl-C to stop";
-    Start-Sleep -Milliseconds $int
+    Start-Sleep -Milliseconds $interval
 }
