@@ -2,7 +2,7 @@
 Basically, does a screenshot in every time interval. Chose your own timelapse creator to create timelapse video, [this](https://www.microsoft.com/en-us/p/time-lapse-creator/9p7tv6jcl1s3) app for example.
 
 ## Use on your own risk
-Not tested on many difference machines. Script may fail because of its dependency on the .NET.
+Not tested on many different machines. Script may fail because of its dependency on the .NET.
 
 ## Usage example
 ### option 1
@@ -27,6 +27,6 @@ Use your own interval value, in this example we use 1000 milisecond.
 The script will make a directory called timelapse, and put all the screenshots inside this directory.
 
 ## Credit 
-Adopted script from https://stackoverflow.com/a/44609221
+This script is adopted from https://stackoverflow.com/a/44609221. I only add the timelapse logic.
 
 # Good Luck, Have fun :)
