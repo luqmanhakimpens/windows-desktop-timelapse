@@ -25,6 +25,7 @@ Use your own interval value, in this example we use 1000 milisecond.
 
 ### output
 The script will make a directory called timelapse, and put all the screenshots inside this directory.
+&nbsp;&nbsp;![capture4](images/capture4.png)
 
 ## Credit 
 This script is adopted from https://stackoverflow.com/a/44609221. I only add the timelapse logic.
