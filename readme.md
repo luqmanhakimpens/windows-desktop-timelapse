@@ -16,7 +16,9 @@ Not tested on many different machines. Script may fail because of its dependency
 1. Shift + Righ-click on blank area inside script's directory, select "open powershell window here".
 &nbsp;&nbsp;![capture2](images/capture2.png)
 2. run this command: 
-&nbsp;&nbsp;```.\desktop_timelapse.ps1 -interval 1000```
+&nbsp;&nbsp;```
+.\desktop_timelapse.ps1 -interval 1000
+```
 Use your own interval value, in this example we use 1000 milisecond.
 &nbsp;&nbsp;![capture3](images/capture3.png)
 3. Use Ctrl-C to stop.
