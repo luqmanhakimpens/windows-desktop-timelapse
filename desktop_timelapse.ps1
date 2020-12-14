@@ -72,7 +72,7 @@ else {
 $i = 0
 while($true)
 {
-    $file = "$PSScriptRoot\timelapse\timelapse$i.png"
+    $file = "$PSScriptRoot\timelapse\$i.png"
     $i++
 
     screenshot $file
