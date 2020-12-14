@@ -1,0 +1,1 @@
+Powershell script to make timelapse of windows-desktop. Basically, does a screenshot in every time interval.
